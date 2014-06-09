@@ -22,6 +22,7 @@ public class GlavnoOkno extends TabActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_glavno_okno);
         
+        // zgodile so se spremembe
         final TabHost tabHost = getTabHost();
         // Tab for Photos
         TabSpec photospec = tabHost.newTabSpec("Male");
