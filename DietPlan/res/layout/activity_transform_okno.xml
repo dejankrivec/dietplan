@@ -1,0 +1,170 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center_vertical"
+  android:background="#FFFFFF"
+  >
+    <LinearLayout 
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        
+	   	<LinearLayout 
+	      android:layout_height="match_parent"
+	      android:layout_width="match_parent"
+	      android:layout_weight="11">
+	      
+	      <LinearLayout 
+	          android:layout_width="match_parent"
+	          android:layout_height="match_parent"
+	          android:layout_weight="1"
+	          android:background="@drawable/naslov">
+	          <TextView 
+	  	        android:id="@+id/napis"
+	  	        android:layout_width="wrap_content"
+	  	        android:layout_height="match_parent"
+	  	        android:gravity="center_vertical"
+	  	        android:textColor="#FFFFFF"
+	  	       	android:textSize="18sp"
+	  	       	android:textStyle="bold"
+	  	       	android:layout_marginLeft="15dp"/>
+	      </LinearLayout>
+	  	    <LinearLayout 
+	          android:layout_width="match_parent"
+	          android:layout_height="match_parent"
+	          android:layout_weight="3"
+	          android:paddingTop="10dp"
+	          android:paddingBottom="15dp"
+	          android:paddingLeft="5dp"
+	          android:paddingRight="5dp">
+	          <ImageView 
+	              android:id="@+id/graph"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:layout_gravity="center"
+	              android:background="@drawable/graph"/>
+	      </LinearLayout>
+	      <LinearLayout 
+	          android:layout_width="match_parent"
+	          android:layout_height="match_parent"
+	          android:layout_weight="3"
+	          android:paddingTop="10dp"
+	          android:paddingBottom="15dp"
+	          android:paddingLeft="5dp"
+	          android:paddingRight="5dp">
+	          <ImageView 
+	              android:id="@+id/forum"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:layout_gravity="center"
+	              android:background="@drawable/forum"/>
+	      </LinearLayout>
+	      
+	  	</LinearLayout>
+        
+        <LinearLayout 
+            android:layout_height="match_parent"
+        	android:layout_width="match_parent"
+        	android:layout_weight="3"
+        	android:orientation="vertical"
+        	android:layout_marginRight="25dp"
+        	android:layout_marginTop="25dp">
+
+            <LinearLayout 
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_marginBottom="2dp">
+                
+                <Button 
+                    android:id="@+id/t1"
+                    android:layout_height="fill_parent"
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/uvod_v_aktivnost"
+                    android:textSize="16dp"
+                    android:textColor="#FFFFFF"/>
+                
+                
+                
+            </LinearLayout> 
+            <LinearLayout 
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_marginBottom="2dp">
+                
+                <Button 
+                    android:id="@+id/t2"
+                    android:layout_height="fill_parent"
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/uvod_v_aktivnost"
+                    android:textSize="16dp"
+                    android:textColor="#FFFFFF"/>
+                
+            </LinearLayout>
+            <LinearLayout 
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1">
+                
+                <Button 
+                    android:id="@+id/t3"
+                    android:layout_height="fill_parent"
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/uvod_v_aktivnost"
+                    android:textSize="16dp"/>
+                
+            </LinearLayout>
+                
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:padding="5dp">
+        
+        <LinearLayout 
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1">
+            
+            <Button 
+                android:id="@+id/TransfomrgoFood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/eatgumb"/>
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1">
+            
+            <ImageView 
+                android:id="@+id/prikaznaslikica"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+            
+            
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+    
+</LinearLayout>

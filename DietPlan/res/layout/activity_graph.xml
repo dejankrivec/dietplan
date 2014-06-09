@@ -1,0 +1,122 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center_vertical"
+  android:background="#FFFFFF">
+   
+    <LinearLayout 
+        android:id="@+id/graph"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    </LinearLayout>
+        
+    <LinearLayout 
+    	android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3">
+        
+        <LinearLayout 
+        	android:layout_height="match_parent"
+        	android:layout_width="match_parent"
+        	android:layout_weight="1"
+        	android:orientation="vertical"
+        	android:gravity="center_horizontal">
+	        
+            <TextView 
+	            android:layout_height="20dp"
+	            android:layout_width="20dp"
+	            android:textColor="#000000"
+	            android:layout_marginTop="20dp"
+	            android:background="@drawable/blue"
+	            />
+	        <TextView 
+	            android:layout_height="20dp"
+	            android:layout_width="20dp"
+	            android:textColor="#000000"
+	            android:layout_marginTop="10dp"
+	            android:background="@drawable/red"/>
+	        <TextView 
+	            android:layout_height="20dp"
+	            android:layout_width="20dp"
+	            android:textColor="#000000"
+	            android:layout_marginTop="10dp"
+	            android:background="@drawable/ind"/>
+            <TextView 
+	            android:layout_height="20dp"
+	            android:layout_width="wrap_content"
+	            android:textColor="#000000"
+	            android:layout_marginTop="10dp"
+	            android:id="@+id/TotalKcal"
+	            android:text="Total Kcal"/>
+            
+    	</LinearLayout>
+    	
+        <LinearLayout 
+        	android:layout_height="match_parent"
+        	android:layout_width="match_parent"
+        	android:layout_weight="1"
+        	android:orientation="vertical">
+            
+            <TextView 
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:text="@string/Bel"
+	            android:textColor="#000000"
+	            android:layout_marginTop="20dp"
+	            android:layout_marginLeft="20dp"/>
+	        <TextView 
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:text="@string/Mas"
+	            android:textColor="#000000"
+	            android:layout_marginLeft="20dp"
+	            android:layout_marginTop="10dp"/>
+	        <TextView 
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:text="@string/OH"
+	            android:textColor="#000000"
+	            android:layout_marginLeft="20dp"
+	            android:layout_marginTop="10dp"/>
+	        <TextView 
+	            android:layout_height="20dp"
+	            android:layout_width="wrap_content"
+	            android:textColor="#000000"
+	            android:layout_marginTop="10dp"
+	            android:layout_marginLeft="20dp"
+	            android:id="@+id/totalkcalset"/>
+        </LinearLayout>
+            <LinearLayout 
+        	android:layout_height="match_parent"
+        	android:layout_width="match_parent"
+        	android:layout_weight="1"
+        	android:orientation="vertical">
+                <TextView 
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:textColor="#000000"
+	            android:layout_marginLeft="20dp"
+	            android:layout_marginTop="20dp"
+	            android:id="@+id/protset"/>
+	        <TextView 
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:textColor="#000000"
+	            android:layout_marginLeft="20dp"
+	            android:layout_marginTop="10dp"
+	            android:id="@+id/fatset"/>
+	        <TextView 
+	            android:layout_height="20dp"
+	            android:layout_width="wrap_content"
+	            android:textColor="#000000"
+	            android:layout_marginTop="10dp"
+	            android:layout_marginLeft="20dp"
+	            android:id="@+id/ohset"/>
+            </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>

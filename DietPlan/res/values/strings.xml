@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DietPlan</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Transform">Transform</string>
+    <string name="LoseFat">Lose Fat</string>
+    <string name="MuscleBuild">Build Muscle</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_meniji">Meniji</string>
+    <string name="Teza">Weight</string>
+    <string name="Bel">Protein</string>
+    <string name="Mas">Fat</string>
+    <string name="OH">Carbohydrate</string>
+    <string name="kolicina">g/Day</string>
+    <string name="title_activity_jedilnik">Jedilnik</string>
+    <string name="zacetnostanje">0</string>
+    <string name="kcal">Kcal</string>
+    <string name="gday">g/Day</string>
+    <string name="calories">Calories</string>
+    <string name="whatsonmenu">What is on menu</string>
+    <string name="title_activity_transform_okno">TransformOkno</string>
+    <string name="title_activity_lose_fat_okno">LoseFatOkno</string>
+    <string name="title_activity_build_muscle_okno">BuildMuscleOkno</string>
+    <string name="title_activity_graph">Graph</string>
+    <string name="title_activity_forum">Forum</string>
+
+</resources>

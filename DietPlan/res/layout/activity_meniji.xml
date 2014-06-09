@@ -1,0 +1,298 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#F8F8F8"  
+  >
+   
+  <!-- Screen Design for Photos -->
+  <LinearLayout 
+  	    android:layout_width="fill_parent"
+  	    android:layout_height="match_parent"
+  	    android:layout_weight="2"
+  	    android:layout_marginLeft="14dp"
+      	android:layout_marginRight="14dp"
+      	android:layout_marginTop="5dp"
+      	android:layout_marginBottom="14dp"
+  	    android:background="@drawable/lyoutshape"
+  	    android:orientation="vertical">
+  	    
+  	    <LinearLayout
+  	        android:layout_width="fill_parent"
+  	    	android:layout_height="match_parent"
+  	    	android:background="@drawable/ly1"
+  	    	android:layout_weight="3"
+  	    	>
+  	    	
+  	        
+  	        
+  	    </LinearLayout>
+  	    
+  	    <LinearLayout 
+  	        android:layout_width="fill_parent"
+  	        android:layout_height="match_parent"
+  	        android:layout_weight="2.7">
+  	        
+  	        <TextView 
+  	            android:id="@+id/skupnekalorije"
+  	            android:layout_height="fill_parent"
+  	            android:layout_width="match_parent"
+  	            android:layout_weight="2.5"
+  	            android:text="@string/zacetnostanje"
+  	            android:textColor="#000066"
+  	            android:gravity="center"
+  	            android:textSize="28sp"
+  	            android:textStyle="bold"
+  	            android:layout_marginLeft="20dp"/>
+  	        
+  	        <TextView 
+  	            android:layout_height="fill_parent"
+  	            android:layout_width="match_parent"
+  	            android:layout_weight="1"
+  	            android:text="@string/calories"
+  	            android:gravity="center_vertical"
+  	            android:layout_marginLeft="40dp"
+  	            android:textSize="18sp"/>
+  	        
+  	    </LinearLayout>
+  	    
+  	    <LinearLayout
+  	        android:layout_width="fill_parent"
+  	        android:layout_height="match_parent"
+  	        android:layout_weight="2.9" 
+  	        android:gravity="center">
+
+  	        <EditText
+  	            android:id="@+id/vnosteze"
+  	            android:layout_width="150dp"
+  	            android:layout_height="fill_parent"
+  	            android:layout_marginBottom="10dp"
+  	            android:background="@drawable/lyouteditshape"
+  	            android:inputType="numberDecimal"
+  	            android:textSize="20sp"
+  	            android:textAlignment="center"/>
+  	        
+  	    </LinearLayout>
+  	    
+  	    <LinearLayout 
+  	        android:layout_width="fill_parent"
+  	        android:layout_height="match_parent"
+  	        android:layout_weight="1.5" 
+  	        android:gravity="center"
+  	        android:layout_marginTop="2dp"
+  	        android:orientation="vertical">
+  	        
+  	        <LinearLayout 
+  	            android:layout_width="fill_parent"
+  	            android:layout_height="match_parent"
+  	            android:layout_weight="5.5">
+  	            
+  	            <LinearLayout 
+  	                android:layout_width="match_parent"
+  	                android:layout_height="fill_parent"
+  	                android:layout_weight="2"
+  	                android:background="@drawable/lyoutcalcnapis"> 
+  	                
+  	                <TextView 
+  	                    android:layout_width="fill_parent"
+  	                    android:layout_height="fill_parent"
+  	                    android:text="Result"
+  	                    android:textSize="18sp"
+  	                    android:gravity="center_vertical"
+  	                    android:paddingLeft="10dp"
+  	                    android:textColor="#FFFFFF"/>
+  	            </LinearLayout>
+  	            
+  	            <LinearLayout 
+  	                android:layout_width="match_parent"
+  	                android:layout_height="fill_parent"
+  	                android:layout_weight="3"> 
+  	            </LinearLayout>
+  	            
+  	            <LinearLayout 
+  	                android:layout_width="match_parent"
+  	                android:layout_height="fill_parent"
+  	                android:layout_weight="3"> 
+  	            </LinearLayout>
+  	            
+  	        </LinearLayout>
+  	        
+  	        <LinearLayout 
+  	            android:layout_width="fill_parent"
+  	            android:layout_height="match_parent"
+  	            android:layout_weight="5.7"
+  	            android:layout_marginLeft="2dp"
+  	            android:layout_marginRight="2dp">
+  	            
+  	            <LinearLayout 
+  	                android:layout_width="match_parent"
+  	                android:layout_height="fill_parent"
+  	                android:layout_weight="2"
+  	                android:background="#E8E8E8"> 
+  	            </LinearLayout>
+  	            
+  	            <LinearLayout 
+  	                android:layout_width="match_parent"
+  	                android:layout_height="fill_parent"
+  	                android:layout_weight="3"
+  	                android:background="#E8E8E8"> 
+  	                
+  	                <TextView 
+  	                    android:layout_height="fill_parent"
+  	                    android:layout_width="fill_parent"
+  	                    android:text="@string/gday"
+  	                    android:gravity="center"
+  	                    android:textSize="18sp"/>
+  	                
+  	            </LinearLayout>
+  	            
+  	            <LinearLayout 
+  	                android:layout_width="match_parent"
+  	                android:layout_height="fill_parent"
+  	                android:layout_weight="3"
+  	                android:background="#E8E8E8"> 
+  	                
+  	                <TextView 
+  	                    android:layout_height="fill_parent"
+  	                    android:layout_width="fill_parent"
+  	                    android:text="@string/kcal"
+  	                    android:gravity="center"
+  	                    android:textSize="18sp"/>
+  	                
+  	            </LinearLayout>
+  	            
+  	        </LinearLayout>
+  	        <LinearLayout 
+  	            android:layout_width="fill_parent"
+  	            android:layout_height="match_parent"
+  	            android:layout_weight="2.7">
+  	            
+  	            <LinearLayout 
+  	                android:layout_height="fill_parent"
+  	                android:layout_width="match_parent"
+  	                android:layout_weight="2"
+  	                android:orientation="vertical"
+  	                android:padding="15dp">
+  	                
+  	                <TextView 
+  	            		android:layout_height="match_parent"
+  	            		android:layout_width="fill_parent"
+		  	            android:layout_weight="1"
+		  	            android:text="@string/Bel"
+		  	            android:layout_marginLeft="15dp"
+		  	            android:textSize="18sp"/>
+  	                
+  	                <TextView 
+  	            		android:layout_height="match_parent"
+  	            		android:layout_width="fill_parent"
+		  	            android:layout_weight="1"
+		  	            android:text="@string/Mas"
+		  	            android:layout_marginLeft="15dp"
+		  	            android:textSize="18sp"/>
+  	                
+  	                <TextView 
+  	            		android:layout_height="match_parent"
+  	            		android:layout_width="fill_parent"
+		  	            android:layout_weight="1"
+		  	            android:text="@string/OH"
+		  	            android:layout_marginLeft="15dp"
+		  	            android:layout_marginBottom="10dp"
+		  	            android:textSize="18sp"/>
+  	                
+  	            </LinearLayout>
+  	            
+  	            <LinearLayout 
+  	                android:layout_height="fill_parent"
+  	                android:layout_width="match_parent"
+  	                android:layout_weight="3"
+  	                android:orientation="vertical"
+  	                android:paddingTop="15dp"
+  	                android:paddingLeft="15dp"
+  	                android:paddingBottom="15dp">
+  	                
+  	               	<TextView 
+  	               	    android:id="@+id/vnosbeljakovine"
+  	            		android:layout_height="match_parent"
+  	            		android:layout_width="fill_parent"
+		  	            android:layout_weight="1"
+		  	            android:text="@string/zacetnostanje"
+		  	            android:textSize="18sp"/>
+  	                
+  	                <TextView 
+  	                    android:id="@+id/vnosmascobe"
+  	            		android:layout_height="match_parent"
+  	            		android:layout_width="fill_parent"
+		  	            android:layout_weight="1"
+		  	            android:text="@string/zacetnostanje"
+		  	            android:textSize="18sp"/>
+  	                
+  	                <TextView 
+  	                    android:id="@+id/vnosohaji"
+  	            		android:layout_height="match_parent"
+  	            		android:layout_width="fill_parent"
+		  	            android:layout_weight="1"
+		  	            android:text="@string/zacetnostanje" 
+		  	            android:layout_marginBottom="10dp"
+		  	            android:textSize="18sp"/>  	                
+  	                
+  	            </LinearLayout>
+  	            
+  	            <LinearLayout 
+  	                android:layout_height="fill_parent"
+  	                android:layout_width="match_parent"
+  	                android:layout_weight="3"
+  	                android:orientation="vertical"
+  	                android:paddingTop="15dp"
+  	                android:paddingLeft="15dp"
+  	                android:paddingBottom="15dp">
+  	                
+  	                <TextView 
+  	                    android:id="@+id/belkcal"
+  	            		android:layout_height="match_parent"
+  	            		android:layout_width="fill_parent"
+		  	            android:layout_weight="1"
+		  	            android:text="@string/zacetnostanje"
+		  	            android:textSize="18sp"/>
+  	                
+  	                <TextView 
+  	                    android:id="@+id/maskcal"
+  	            		android:layout_height="match_parent"
+  	            		android:layout_width="fill_parent"
+		  	            android:layout_weight="1"
+		  	            android:text="@string/zacetnostanje"
+		  	            android:textSize="18sp"/>
+  	                
+  	                <TextView 
+  	                    android:id="@+id/ohkcal"
+  	            		android:layout_height="match_parent"
+  	            		android:layout_width="fill_parent"
+		  	            android:layout_weight="1"
+		  	            android:text="@string/zacetnostanje"   
+		  	            android:layout_marginBottom="10dp"
+		  	            android:textSize="18sp"/> 
+  	                
+  	            </LinearLayout>   
+  	        </LinearLayout>
+
+  	        <LinearLayout
+  	            android:layout_width="fill_parent"
+  	            android:layout_height="match_parent"
+  	            android:layout_marginLeft="2dp"
+  	            android:layout_marginRight="2dp"
+  	            android:layout_weight="4.8"
+  	            android:background="#0099FF"
+  	            android:gravity="center" >
+
+  	            <Button
+  	                android:id="@+id/pojdinameni"
+  	                android:layout_width="160dp"
+  	                android:layout_height="fill_parent"      
+  	                android:gravity="center" 
+  	                android:text="What's on menu"
+  	                android:textColor="#000000"/>
+  	        </LinearLayout>
+
+  	    </LinearLayout>
+  	</LinearLayout> 
+</LinearLayout>
