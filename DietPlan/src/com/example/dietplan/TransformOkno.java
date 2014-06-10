@@ -136,8 +136,392 @@ public class TransformOkno extends Activity {
 				// TODO Auto-generated method stub
 				
 				Dialog dialog = new Dialog(context);
-				dialog.setTitle("Information");
-				dialog.setContentView(R.layout.hranilne_vrednosti);
+				dialog.setTitle("Articles");
+				dialog.setContentView(R.layout.clankidialog);
+				if(sender.equals("Transform"))
+				{
+					TextView a = (TextView)dialog.findViewById(R.id.text);
+					a.setText(
+					"Yesterday, you got a taste of the intensity and speed of the 30 Days Out " +
+					"workouts. Today, try to get more comfortable with this programming and learn " +
+					"how to push past the fatigue and keep moving. It's sometimes difficult to lift " +
+					"with nearly max effort and solid form when your heart rate racing, but if you " +
+					"keep practicing, you'll get better at it."+
+					"Make sure you watch today's video. In it, you'll get to see me go through the" +
+					"movements. If you aren't sure about form, you have some guidance. You'll also" +
+					"get to see how cardio works and how best to approach your workouts."+
+					"If you haven't read the nutrition overview page, do it right now. Getting" +
+					"shredded is, ultimately, about what you eat. You can work as hard as you" + 
+					"want in the gym, but if your nutrition isn't seriously perfect, you won't" +
+					"uncover that photo-worthy physique."+
+					"Use our nutrition calculator to determine exactly how many calories, carbs," +
+					"fat, and protein you'll take in per meal. We've done all the hard work for "+
+					"you—all you have to do is commit to following the program.");
+				}
+				if(sender.equals("LoseFat"))
+				{
+					TextView a = (TextView)dialog.findViewById(R.id.text);
+					a.setText(
+					"Yesterday, you got a taste of the intensity and speed of the 30 Days Out " +
+					"workouts. Today, try to get more comfortable with this programming and learn " +
+					"how to push past the fatigue and keep moving. It's sometimes difficult to lift " +
+					"with nearly max effort and solid form when your heart rate racing, but if you " +
+					"keep practicing, you'll get better at it."+
+					"Make sure you watch today's video. In it, you'll get to see me go through the" +
+					"movements. If you aren't sure about form, you have some guidance. You'll also" +
+					"get to see how cardio works and how best to approach your workouts."+
+					"If you haven't read the nutrition overview page, do it right now. Getting" +
+					"shredded is, ultimately, about what you eat. You can work as hard as you" + 
+					"want in the gym, but if your nutrition isn't seriously perfect, you won't" +
+					"uncover that photo-worthy physique."+
+					"Use our nutrition calculator to determine exactly how many calories, carbs," +
+					"fat, and protein you'll take in per meal. We've done all the hard work for "+
+					"you—all you have to do is commit to following the program.");
+				}
+				if(sender.equals("BuildMuscle"))
+				{
+					TextView a = (TextView)dialog.findViewById(R.id.text);
+					a.setText(
+					"Yesterday, you got a taste of the intensity and speed of the 30 Days Out " +
+					"workouts. Today, try to get more comfortable with this programming and learn " +
+					"how to push past the fatigue and keep moving. It's sometimes difficult to lift " +
+					"with nearly max effort and solid form when your heart rate racing, but if you " +
+					"keep practicing, you'll get better at it."+
+					"Make sure you watch today's video. In it, you'll get to see me go through the" +
+					"movements. If you aren't sure about form, you have some guidance. You'll also" +
+					"get to see how cardio works and how best to approach your workouts."+
+					"If you haven't read the nutrition overview page, do it right now. Getting" +
+					"shredded is, ultimately, about what you eat. You can work as hard as you" + 
+					"want in the gym, but if your nutrition isn't seriously perfect, you won't" +
+					"uncover that photo-worthy physique."+
+					"Use our nutrition calculator to determine exactly how many calories, carbs," +
+					"fat, and protein you'll take in per meal. We've done all the hard work for "+
+					"you—all you have to do is commit to following the program.");
+				}
+				if(sender.equals("TransformFemale"))
+				{
+					TextView a = (TextView)dialog.findViewById(R.id.text);
+					a.setText(
+					"Yesterday, you got a taste of the intensity and speed of the 30 Days Out " +
+					"workouts. Today, try to get more comfortable with this programming and learn " +
+					"how to push past the fatigue and keep moving. It's sometimes difficult to lift " +
+					"with nearly max effort and solid form when your heart rate racing, but if you " +
+					"keep practicing, you'll get better at it."+
+					"Make sure you watch today's video. In it, you'll get to see me go through the" +
+					"movements. If you aren't sure about form, you have some guidance. You'll also" +
+					"get to see how cardio works and how best to approach your workouts."+
+					"If you haven't read the nutrition overview page, do it right now. Getting" +
+					"shredded is, ultimately, about what you eat. You can work as hard as you" + 
+					"want in the gym, but if your nutrition isn't seriously perfect, you won't" +
+					"uncover that photo-worthy physique."+
+					"Use our nutrition calculator to determine exactly how many calories, carbs," +
+					"fat, and protein you'll take in per meal. We've done all the hard work for "+
+					"you—all you have to do is commit to following the program.");
+				}
+				if(sender.equals("LoseFatFemale"))
+				{
+					TextView a = (TextView)dialog.findViewById(R.id.text);
+					a.setText(
+					"Yesterday, you got a taste of the intensity and speed of the 30 Days Out " +
+					"workouts. Today, try to get more comfortable with this programming and learn " +
+					"how to push past the fatigue and keep moving. It's sometimes difficult to lift " +
+					"with nearly max effort and solid form when your heart rate racing, but if you " +
+					"keep practicing, you'll get better at it."+
+					"Make sure you watch today's video. In it, you'll get to see me go through the" +
+					"movements. If you aren't sure about form, you have some guidance. You'll also" +
+					"get to see how cardio works and how best to approach your workouts."+
+					"If you haven't read the nutrition overview page, do it right now. Getting" +
+					"shredded is, ultimately, about what you eat. You can work as hard as you" + 
+					"want in the gym, but if your nutrition isn't seriously perfect, you won't" +
+					"uncover that photo-worthy physique."+
+					"Use our nutrition calculator to determine exactly how many calories, carbs," +
+					"fat, and protein you'll take in per meal. We've done all the hard work for "+
+					"you—all you have to do is commit to following the program.");
+				}
+				if(sender.equals("BuildMuscleFemale"))
+				{
+					TextView a = (TextView)dialog.findViewById(R.id.text);
+					a.setText(
+					"Yesterday, you got a taste of the intensity and speed of the 30 Days Out " +
+					"workouts. Today, try to get more comfortable with this programming and learn " +
+					"how to push past the fatigue and keep moving. It's sometimes difficult to lift " +
+					"with nearly max effort and solid form when your heart rate racing, but if you " +
+					"keep practicing, you'll get better at it."+
+					"Make sure you watch today's video. In it, you'll get to see me go through the" +
+					"movements. If you aren't sure about form, you have some guidance. You'll also" +
+					"get to see how cardio works and how best to approach your workouts."+
+					"If you haven't read the nutrition overview page, do it right now. Getting" +
+					"shredded is, ultimately, about what you eat. You can work as hard as you" + 
+					"want in the gym, but if your nutrition isn't seriously perfect, you won't" +
+					"uncover that photo-worthy physique."+
+					"Use our nutrition calculator to determine exactly how many calories, carbs," +
+					"fat, and protein you'll take in per meal. We've done all the hard work for "+
+					"you—all you have to do is commit to following the program.");
+				}
+				dialog.show();
+			}
+		});
+		bt2.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				
+				Dialog dialog = new Dialog(context);
+				dialog.setTitle("Articles");
+				dialog.setContentView(R.layout.clankidialog);
+				if(sender.equals("Transform"))
+				{
+					TextView a = (TextView)dialog.findViewById(R.id.text);
+					a.setText(
+					"Yesterday, you got a taste of the intensity and speed of the 30 Days Out " +
+					"workouts. Today, try to get more comfortable with this programming and learn " +
+					"how to push past the fatigue and keep moving. It's sometimes difficult to lift " +
+					"with nearly max effort and solid form when your heart rate racing, but if you " +
+					"keep practicing, you'll get better at it."+
+					"Make sure you watch today's video. In it, you'll get to see me go through the" +
+					"movements. If you aren't sure about form, you have some guidance. You'll also" +
+					"get to see how cardio works and how best to approach your workouts."+
+					"If you haven't read the nutrition overview page, do it right now. Getting" +
+					"shredded is, ultimately, about what you eat. You can work as hard as you" + 
+					"want in the gym, but if your nutrition isn't seriously perfect, you won't" +
+					"uncover that photo-worthy physique."+
+					"Use our nutrition calculator to determine exactly how many calories, carbs," +
+					"fat, and protein you'll take in per meal. We've done all the hard work for "+
+					"you—all you have to do is commit to following the program.");
+				}
+				if(sender.equals("LoseFat"))
+				{
+					TextView a = (TextView)dialog.findViewById(R.id.text);
+					a.setText(
+					"Yesterday, you got a taste of the intensity and speed of the 30 Days Out " +
+					"workouts. Today, try to get more comfortable with this programming and learn " +
+					"how to push past the fatigue and keep moving. It's sometimes difficult to lift " +
+					"with nearly max effort and solid form when your heart rate racing, but if you " +
+					"keep practicing, you'll get better at it."+
+					"Make sure you watch today's video. In it, you'll get to see me go through the" +
+					"movements. If you aren't sure about form, you have some guidance. You'll also" +
+					"get to see how cardio works and how best to approach your workouts."+
+					"If you haven't read the nutrition overview page, do it right now. Getting" +
+					"shredded is, ultimately, about what you eat. You can work as hard as you" + 
+					"want in the gym, but if your nutrition isn't seriously perfect, you won't" +
+					"uncover that photo-worthy physique."+
+					"Use our nutrition calculator to determine exactly how many calories, carbs," +
+					"fat, and protein you'll take in per meal. We've done all the hard work for "+
+					"you—all you have to do is commit to following the program.");
+				}
+				if(sender.equals("BuildMuscle"))
+				{
+					TextView a = (TextView)dialog.findViewById(R.id.text);
+					a.setText(
+					"Yesterday, you got a taste of the intensity and speed of the 30 Days Out " +
+					"workouts. Today, try to get more comfortable with this programming and learn " +
+					"how to push past the fatigue and keep moving. It's sometimes difficult to lift " +
+					"with nearly max effort and solid form when your heart rate racing, but if you " +
+					"keep practicing, you'll get better at it."+
+					"Make sure you watch today's video. In it, you'll get to see me go through the" +
+					"movements. If you aren't sure about form, you have some guidance. You'll also" +
+					"get to see how cardio works and how best to approach your workouts."+
+					"If you haven't read the nutrition overview page, do it right now. Getting" +
+					"shredded is, ultimately, about what you eat. You can work as hard as you" + 
+					"want in the gym, but if your nutrition isn't seriously perfect, you won't" +
+					"uncover that photo-worthy physique."+
+					"Use our nutrition calculator to determine exactly how many calories, carbs," +
+					"fat, and protein you'll take in per meal. We've done all the hard work for "+
+					"you—all you have to do is commit to following the program.");
+				}
+				if(sender.equals("TransformFemale"))
+				{
+					TextView a = (TextView)dialog.findViewById(R.id.text);
+					a.setText(
+					"Yesterday, you got a taste of the intensity and speed of the 30 Days Out " +
+					"workouts. Today, try to get more comfortable with this programming and learn " +
+					"how to push past the fatigue and keep moving. It's sometimes difficult to lift " +
+					"with nearly max effort and solid form when your heart rate racing, but if you " +
+					"keep practicing, you'll get better at it."+
+					"Make sure you watch today's video. In it, you'll get to see me go through the" +
+					"movements. If you aren't sure about form, you have some guidance. You'll also" +
+					"get to see how cardio works and how best to approach your workouts."+
+					"If you haven't read the nutrition overview page, do it right now. Getting" +
+					"shredded is, ultimately, about what you eat. You can work as hard as you" + 
+					"want in the gym, but if your nutrition isn't seriously perfect, you won't" +
+					"uncover that photo-worthy physique."+
+					"Use our nutrition calculator to determine exactly how many calories, carbs," +
+					"fat, and protein you'll take in per meal. We've done all the hard work for "+
+					"you—all you have to do is commit to following the program.");
+				}
+				if(sender.equals("LoseFatFemale"))
+				{
+					TextView a = (TextView)dialog.findViewById(R.id.text);
+					a.setText(
+					"Yesterday, you got a taste of the intensity and speed of the 30 Days Out " +
+					"workouts. Today, try to get more comfortable with this programming and learn " +
+					"how to push past the fatigue and keep moving. It's sometimes difficult to lift " +
+					"with nearly max effort and solid form when your heart rate racing, but if you " +
+					"keep practicing, you'll get better at it."+
+					"Make sure you watch today's video. In it, you'll get to see me go through the" +
+					"movements. If you aren't sure about form, you have some guidance. You'll also" +
+					"get to see how cardio works and how best to approach your workouts."+
+					"If you haven't read the nutrition overview page, do it right now. Getting" +
+					"shredded is, ultimately, about what you eat. You can work as hard as you" + 
+					"want in the gym, but if your nutrition isn't seriously perfect, you won't" +
+					"uncover that photo-worthy physique."+
+					"Use our nutrition calculator to determine exactly how many calories, carbs," +
+					"fat, and protein you'll take in per meal. We've done all the hard work for "+
+					"you—all you have to do is commit to following the program.");
+				}
+				if(sender.equals("BuildMuscleFemale"))
+				{
+					TextView a = (TextView)dialog.findViewById(R.id.text);
+					a.setText(
+					"Yesterday, you got a taste of the intensity and speed of the 30 Days Out " +
+					"workouts. Today, try to get more comfortable with this programming and learn " +
+					"how to push past the fatigue and keep moving. It's sometimes difficult to lift " +
+					"with nearly max effort and solid form when your heart rate racing, but if you " +
+					"keep practicing, you'll get better at it."+
+					"Make sure you watch today's video. In it, you'll get to see me go through the" +
+					"movements. If you aren't sure about form, you have some guidance. You'll also" +
+					"get to see how cardio works and how best to approach your workouts."+
+					"If you haven't read the nutrition overview page, do it right now. Getting" +
+					"shredded is, ultimately, about what you eat. You can work as hard as you" + 
+					"want in the gym, but if your nutrition isn't seriously perfect, you won't" +
+					"uncover that photo-worthy physique."+
+					"Use our nutrition calculator to determine exactly how many calories, carbs," +
+					"fat, and protein you'll take in per meal. We've done all the hard work for "+
+					"you—all you have to do is commit to following the program.");
+				}
+				dialog.show();
+			}
+		});
+		bt3.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				
+				Dialog dialog = new Dialog(context);
+				dialog.setTitle("Articles");
+				dialog.setContentView(R.layout.clankidialog);
+				if(sender.equals("Transform"))
+				{
+					TextView a = (TextView)dialog.findViewById(R.id.text);
+					a.setText(
+					"Yesterday, you got a taste of the intensity and speed of the 30 Days Out " +
+					"workouts. Today, try to get more comfortable with this programming and learn " +
+					"how to push past the fatigue and keep moving. It's sometimes difficult to lift " +
+					"with nearly max effort and solid form when your heart rate racing, but if you " +
+					"keep practicing, you'll get better at it."+
+					"Make sure you watch today's video. In it, you'll get to see me go through the" +
+					"movements. If you aren't sure about form, you have some guidance. You'll also" +
+					"get to see how cardio works and how best to approach your workouts."+
+					"If you haven't read the nutrition overview page, do it right now. Getting" +
+					"shredded is, ultimately, about what you eat. You can work as hard as you" + 
+					"want in the gym, but if your nutrition isn't seriously perfect, you won't" +
+					"uncover that photo-worthy physique."+
+					"Use our nutrition calculator to determine exactly how many calories, carbs," +
+					"fat, and protein you'll take in per meal. We've done all the hard work for "+
+					"you—all you have to do is commit to following the program.");
+				}
+				if(sender.equals("LoseFat"))
+				{
+					TextView a = (TextView)dialog.findViewById(R.id.text);
+					a.setText(
+					"Yesterday, you got a taste of the intensity and speed of the 30 Days Out " +
+					"workouts. Today, try to get more comfortable with this programming and learn " +
+					"how to push past the fatigue and keep moving. It's sometimes difficult to lift " +
+					"with nearly max effort and solid form when your heart rate racing, but if you " +
+					"keep practicing, you'll get better at it."+
+					"Make sure you watch today's video. In it, you'll get to see me go through the" +
+					"movements. If you aren't sure about form, you have some guidance. You'll also" +
+					"get to see how cardio works and how best to approach your workouts."+
+					"If you haven't read the nutrition overview page, do it right now. Getting" +
+					"shredded is, ultimately, about what you eat. You can work as hard as you" + 
+					"want in the gym, but if your nutrition isn't seriously perfect, you won't" +
+					"uncover that photo-worthy physique."+
+					"Use our nutrition calculator to determine exactly how many calories, carbs," +
+					"fat, and protein you'll take in per meal. We've done all the hard work for "+
+					"you—all you have to do is commit to following the program.");
+				}
+				if(sender.equals("BuildMuscle"))
+				{
+					TextView a = (TextView)dialog.findViewById(R.id.text);
+					a.setText(
+					"Yesterday, you got a taste of the intensity and speed of the 30 Days Out " +
+					"workouts. Today, try to get more comfortable with this programming and learn " +
+					"how to push past the fatigue and keep moving. It's sometimes difficult to lift " +
+					"with nearly max effort and solid form when your heart rate racing, but if you " +
+					"keep practicing, you'll get better at it."+
+					"Make sure you watch today's video. In it, you'll get to see me go through the" +
+					"movements. If you aren't sure about form, you have some guidance. You'll also" +
+					"get to see how cardio works and how best to approach your workouts."+
+					"If you haven't read the nutrition overview page, do it right now. Getting" +
+					"shredded is, ultimately, about what you eat. You can work as hard as you" + 
+					"want in the gym, but if your nutrition isn't seriously perfect, you won't" +
+					"uncover that photo-worthy physique."+
+					"Use our nutrition calculator to determine exactly how many calories, carbs," +
+					"fat, and protein you'll take in per meal. We've done all the hard work for "+
+					"you—all you have to do is commit to following the program.");
+				}
+				if(sender.equals("TransformFemale"))
+				{
+					TextView a = (TextView)dialog.findViewById(R.id.text);
+					a.setText(
+					"Yesterday, you got a taste of the intensity and speed of the 30 Days Out " +
+					"workouts. Today, try to get more comfortable with this programming and learn " +
+					"how to push past the fatigue and keep moving. It's sometimes difficult to lift " +
+					"with nearly max effort and solid form when your heart rate racing, but if you " +
+					"keep practicing, you'll get better at it."+
+					"Make sure you watch today's video. In it, you'll get to see me go through the" +
+					"movements. If you aren't sure about form, you have some guidance. You'll also" +
+					"get to see how cardio works and how best to approach your workouts."+
+					"If you haven't read the nutrition overview page, do it right now. Getting" +
+					"shredded is, ultimately, about what you eat. You can work as hard as you" + 
+					"want in the gym, but if your nutrition isn't seriously perfect, you won't" +
+					"uncover that photo-worthy physique."+
+					"Use our nutrition calculator to determine exactly how many calories, carbs," +
+					"fat, and protein you'll take in per meal. We've done all the hard work for "+
+					"you—all you have to do is commit to following the program.");
+				}
+				if(sender.equals("LoseFatFemale"))
+				{
+					TextView a = (TextView)dialog.findViewById(R.id.text);
+					a.setText(
+					"Yesterday, you got a taste of the intensity and speed of the 30 Days Out " +
+					"workouts. Today, try to get more comfortable with this programming and learn " +
+					"how to push past the fatigue and keep moving. It's sometimes difficult to lift " +
+					"with nearly max effort and solid form when your heart rate racing, but if you " +
+					"keep practicing, you'll get better at it."+
+					"Make sure you watch today's video. In it, you'll get to see me go through the" +
+					"movements. If you aren't sure about form, you have some guidance. You'll also" +
+					"get to see how cardio works and how best to approach your workouts."+
+					"If you haven't read the nutrition overview page, do it right now. Getting" +
+					"shredded is, ultimately, about what you eat. You can work as hard as you" + 
+					"want in the gym, but if your nutrition isn't seriously perfect, you won't" +
+					"uncover that photo-worthy physique."+
+					"Use our nutrition calculator to determine exactly how many calories, carbs," +
+					"fat, and protein you'll take in per meal. We've done all the hard work for "+
+					"you—all you have to do is commit to following the program.");
+				}
+				if(sender.equals("BuildMuscleFemale"))
+				{
+					TextView a = (TextView)dialog.findViewById(R.id.text);
+					a.setText(
+					"Yesterday, you got a taste of the intensity and speed of the 30 Days Out " +
+					"workouts. Today, try to get more comfortable with this programming and learn " +
+					"how to push past the fatigue and keep moving. It's sometimes difficult to lift " +
+					"with nearly max effort and solid form when your heart rate racing, but if you " +
+					"keep practicing, you'll get better at it."+
+					"Make sure you watch today's video. In it, you'll get to see me go through the" +
+					"movements. If you aren't sure about form, you have some guidance. You'll also" +
+					"get to see how cardio works and how best to approach your workouts."+
+					"If you haven't read the nutrition overview page, do it right now. Getting" +
+					"shredded is, ultimately, about what you eat. You can work as hard as you" + 
+					"want in the gym, but if your nutrition isn't seriously perfect, you won't" +
+					"uncover that photo-worthy physique."+
+					"Use our nutrition calculator to determine exactly how many calories, carbs," +
+					"fat, and protein you'll take in per meal. We've done all the hard work for "+
+					"you—all you have to do is commit to following the program.");
+				}
 				dialog.show();
 			}
 		});
